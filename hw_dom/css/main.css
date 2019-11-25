@@ -1,0 +1,53 @@
+body {
+  font-family: Palatino;
+}
+
+
+}
+#new-item-form{
+ display: flex;
+ justify-content: space-between;
+ align-items: flex-start;
+ /* flex-grow: 5; */
+
+
+}
+#form-wrapper{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+
+}
+
+.form-item{
+padding: 1em;
+/* display: flex;
+justify-content: space-around;
+align-items: flex-start; */
+
+}
+radio{
+  display: flex;
+  flex-direction: column;
+}
+#delete-all{
+  /* flex-grow: 1; */
+}
+
+h3{
+  color: brown;
+}
+
+li.cake{
+  background-color: beige;
+      padding: 1em;
+      margin: 1em;
+      list-style: none;
+      display: flex;
+      /* flex-wrap: wrap; */
+      flex-basis: 22%;
+      flex-grow: 1;
+      border-radius: 1em;
+      border: beige 0.1em solid;
+      flex-shrink: 2;
+}
